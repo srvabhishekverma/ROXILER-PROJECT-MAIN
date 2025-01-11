@@ -1,0 +1,159 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 16px;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.mainContainer {
+  background-color: #ecf3f3;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 2% 8%;
+  gap: 1.5em;
+}
+
+
+.appHeadingcontainer {
+  background-color: #ffffff;
+  align-self: center;
+  height: 9rem;
+  width: 9rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appHeadingcontainer>p {
+  font-family: Raleway;
+  color: #30302d;
+  font-size: 1.2rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.subContainer1 {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+
+
+.monthDropdown {
+  background-color: #d8b150;
+  border: none;
+  outline: none;
+  font: 500 1rem Roboto;
+  color: #30302d;
+  padding: 0.3rem 1.2rem;
+
+  border-radius: 0.25rem;
+  cursor: pointer;
+  width: 100%;
+  max-width: 250px;
+  flex-shrink: 0;
+}
+
+
+.monthDropdown>option {
+  background-color: #ecf3f3;
+}
+
+.searchInput {
+  cursor: pointer;
+  display: flex;
+  background-color: #fbdb8b;
+  height: 35px;
+  border-radius: 17px;
+  width: 100%;
+  max-width: 250px;
+}
+
+.searchInput>input {
+  padding: 0.3rem 0;
+  padding-left: 10px;
+  background-color: transparent;
+  font: 500 1rem Roboto;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  flex-grow: 1;
+  border-top-left-radius: 17px;
+  border-bottom-left-radius: 17px;
+}
+
+.searchInput>button {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  border-top-right-radius: 17px;
+  border-bottom-right-radius: 17px;
+  max-width: 40px;
+  flex-grow: 1;
+
+}
+
+.pageInfoContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pageInfoContainer p {
+  font: 500 0.9rem Roboto;
+}
+
+.pageInfoContainer div {
+  display: flex;
+  gap: 1rem;
+}
+
+.pageInfoContainer button {
+  background-color: transparent;
+  font: 500 0.9rem Roboto;
+  padding: 0.1rem 0.5rem;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.statisticsContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+  .statisticsContainer {
+    flex-direction: column;
+  }
+
+  .mainContainer {
+    padding: 4% 2%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  html {
+    font-size: 13px;
+  }
+}

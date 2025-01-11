@@ -1,0 +1,70 @@
+.tableContainer {
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+.tableContainer::-webkit-scrollbar {
+    width: 0;
+}
+
+.transactionsTable {
+    background-color: #f8df8c;
+    border-collapse: collapse;
+    border-radius: 2rem;
+    width: 100%;
+    min-height: 400px;
+}
+
+
+.transactionsTable th,
+.transactionsTable td {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+
+
+/* table left border hide*/
+.transactionsTable th:first-child,
+.transactionsTable td:first-child {
+    border-left: none;
+    padding: 1rem;
+}
+
+/* table right border hide */
+.transactionsTable th:last-child,
+.transactionsTable td:last-child {
+    border-right: none;
+    padding: 1rem;
+}
+
+/* table top border hide */
+.transactionsTable th {
+    border-top: none;
+}
+
+.transactionsTable tr:last-child td {
+    border-bottom: none;
+}
+
+.noRadius {
+    border-radius: 2rem 2rem 0 0;
+}
+
+.transactionsTable th {
+    color: #000000;
+    font: 700 1rem Raleway;
+}
+
+.transactionsTable td {
+    font: 400 0.95rem Roboto;
+}
+
+.noDataMessage {
+    font: 900 1rem Roboto;
+}
+
+.productImage {
+    border-radius: 0.5rem;
+}

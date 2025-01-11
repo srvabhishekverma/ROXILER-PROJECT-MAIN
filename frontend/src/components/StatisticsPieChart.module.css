@@ -1,0 +1,20 @@
+.mainContainer {
+    margin-top: 2rem;
+    width: 40%;
+}
+
+.heading {
+    font: 700 1.5rem Raleway;
+    margin-bottom: 0.5rem;
+}
+
+.description {
+    font: 400 0.95rem Roboto;
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 992px) {
+    .mainContainer {
+        width: 100%;
+    }
+}

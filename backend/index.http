@@ -1,0 +1,13 @@
+http://localhost:3000/transactions?month=6&page=1&pageSize=10&search=
+
+###
+http://localhost:3000/statistics/sales?month=6
+
+###
+http://localhost:3000/statistics/price-range?month=6
+
+###
+http://localhost:3000/statistics/unique-category?month=6
+
+###
+http://localhost:3000/statistics/aggregated-data/?month=6
