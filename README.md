@@ -50,9 +50,11 @@ node index.js
 cd frontend
 npm start
 ```
-OR TRY CON CURRENTLY
+
+``` bash
+Or Try Concurretly
 npm install
-npm start
+npm start ```
 
 ## Directory Structure
 
