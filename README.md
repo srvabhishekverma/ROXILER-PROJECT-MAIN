@@ -50,6 +50,9 @@ node index.js
 cd frontend
 npm start
 ```
+OR TRY CON CURRENTLY
+npm install
+npm start
 
 ## Directory Structure
 
